@@ -6689,7 +6689,7 @@
         <material id="ID986" name="__Black_">
             <instance_effect url="#ID987" />
         </material>
-        <material id="ID994" name="__Glass_Sky_Reflection_">
+        <material id="ID994" name="Glass_Sky_Reflection_">
             <instance_effect url="#ID995" />
         </material>
         <material id="ID1039" name="Color_D04">
@@ -7161,7 +7161,7 @@
             <init_from>model/Metal_Rough.jpg</init_from>
         </image>
         <image id="ID996">
-            <init_from>model/__Glass_Sky_Reflection_.jpg</init_from>
+            <init_from>model/Glass_Sky_Reflection_.jpg</init_from>
         </image>
         <image id="ID1059">
             <init_from>model/Wood_Cherry_Original.jpg</init_from>
