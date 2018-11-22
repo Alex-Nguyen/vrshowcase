@@ -5,6 +5,7 @@
     <title>Title</title>
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.5.1/dist/aframe-look-at-component.min.js"></script>
 </head>
 <body>
 <a-scene inspector="url: https://aframe.io/releases/0.3.0/aframe-inspector.min.js">
@@ -34,7 +35,7 @@
 
 
         <a-asset-item id="table" src="assets/models/table/table.dae"></a-asset-item>
-        <a-asset-item id="table" src="assets/models/table/table.glb"></a-asset-item>
+        <a-asset-item id="steve" src="assets/models/Steve/model.dae"></a-asset-item>
         <a-asset-item id="chair" src="assets/models/Chair/model.dae"></a-asset-item>
         <a-asset-item id="speaker" src="assets/models/speaker/model.dae"></a-asset-item>
         <a-asset-item id="couch" src="assets/models/couch/model.dae"></a-asset-item>
@@ -273,6 +274,10 @@ src: url(images/welcome-back.png)"></a-entity>
                   material="
 src: #torch"></a-entity>
     </a-entity>
+
+    <a-entity collada-model="#steve" id="steve" scale="1.5 1.5 1.5" look-at="[camera]" rotation="0 180 0" material ="transparent: false"; position="0 0 10"></a-entity >
+
+
 </a-scene>
 </body>
 </html>

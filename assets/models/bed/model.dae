@@ -6308,7 +6308,7 @@
     </library_effects>
     <library_images>
         <image id="ID162">
-            <init_from>model/_02_-_Default1.JPG</init_from>
+            <init_from>model/Default.JPG</init_from>
         </image>
         <image id="ID207">
             <init_from>model/material_3.jpg</init_from>
